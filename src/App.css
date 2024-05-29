@@ -1,0 +1,118 @@
+.hidden-text {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.3s ease; /* Adjust the duration and timing function as needed */
+}
+
+  .gradient-bg {
+    background: linear-gradient(to bottom, #ffffff,#2023df);
+  }
+
+  .footer-bg{
+    background-color: #0e93a0;
+  }
+
+  .text-color{
+    color: #0e93a0;
+  }
+
+  .form-bg{
+    background-color: #0e93a0;
+  }
+
+  .h-600px{
+    height: 600px;
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    33% {
+      opacity: 0,33;
+      transform: translateX(-66%);
+    }
+    66% {
+      opacity: 0,66;
+      transform: translateX(-33%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  @keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    33% {
+      opacity: 0,33;
+      transform: translateX(66%);
+    }
+    66% {
+      opacity: 0,66;
+      transform: translateX(33%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .animate-slide-left {
+    animation: slideInFromLeft 0.5s ease-out forwards;
+  }
+  
+  .animate-slide-right {
+    animation: slideInFromRight 0.5s ease-out forwards;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .bg-gray-box{
+    background-color: rgb(228, 228, 228);
+  }
+
+  .bg-blue-box{
+    background-color: rgba(42, 120, 184, 0.836);
+  }
+
+  .bg-orange-box{
+    background-color: rgba(240, 141, 27, 0.836);
+  }
+
+  .hidden-text {
+    display: none;
+    opacity: 0;
+  }
+  
+  .visible-text {
+    animation: fadeIn 0.5s ease forwards;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .container {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s ease, visibility 0s linear 0.5s;
+  }
+  
+  .visible {
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0s;
+  }
+  
