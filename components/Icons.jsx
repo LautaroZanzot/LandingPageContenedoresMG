@@ -5,6 +5,8 @@ import Imagen4 from '../src/assets/image4.png';
 import Imagen5 from '../src/assets/image5.png';
 import Imagen1 from '../src/assets/image1.png';
 import Imagen3 from '../src/assets/image3.png';
+import Imagen6 from '../src/assets/image6.png';
+import ImagenPTI from '../src/assets/image7.png';
 
 function Icon({ image, title, description, index, visibleTextIndex, toggleTextVisibility, animationApplied }) {
   const animationClass = animationApplied ? (index % 2 === 0 ? 'animate-slide-left visible' : 'animate-slide-right visible') : '';
@@ -60,13 +62,19 @@ function Icons() {
       image: Imagen2,
       title: 'Mantenimiento y Reparación de  contenedores',
       description:
-        'Expertos en reparación de contenedores refrigerados (Reefer) y de carga seca de todas las marcas. Somos un equipo altamente capacitado que ofrecemos soluciones confiables. Confía en nosotros para mantener tu cadena de frío en perfecto estado.',
+        'Expertos en reparación de contenedores refrigerados (Reefer) y de carga seca de todas las marcas, incluyendo reparación de estructura. Somos un equipo altamente capacitado que ofrecemos soluciones confiables. Confía en nosotros para mantener tu cadena de frío en perfecto estado.',
     },
     {
       image: Imagen4,
       title: 'Prueba previaje PTI',
-      description:
-        'La Inspección PreViaje (PTI Pre Trip Inspection) es esencial para verificar el rendimiento del contenedor refrigerado antes de cada viaje. Realizada antes de cargar cualquier carga térmica, esta prueba identifica posibles problemas en el funcionamiento del equipo.',
+      description: (
+        <div>
+        <img src={ImagenPTI} alt="Imagen de la prueba previaje PTI" />
+        <p>
+          La Inspección PreViaje (PTI Pre Trip Inspection) es esencial para verificar el rendimiento del contenedor refrigerado antes de cada viaje. Realizada antes de cargar cualquier carga térmica, esta prueba identifica posibles problemas en el funcionamiento del equipo.
+        </p>
+      </div>
+      )
     },
     {
       image: Imagen5,
@@ -76,7 +84,7 @@ function Icons() {
     },
     {
       image: Imagen1,
-      title: 'Lavado de Contenedores',
+      title: 'Star Wash',
       description:
         'Realizamos hidrolavadoras de agua fría/caliente, conn productos aprobados.',
     },
@@ -84,7 +92,13 @@ function Icons() {
       image: Imagen3,
       title: 'Inspección de Contenedores',
       description:
-        '',
+        'Determinacion de daños y preventivos realizados por inspectores IICL (Institute of International Container Lessors)',
+    },
+    {
+      image: Imagen6,
+      title: 'Transporte',
+      description:
+        'Transporte a todo el país con o sin grúa hidráulica',
     },
   ];
 

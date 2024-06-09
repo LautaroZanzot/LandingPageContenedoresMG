@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import Contenedores from '../src/assets/contenedores.png';
+import Contenedores from '../src/assets/contenedores2.png';
 function Home() {
   return (
     <>

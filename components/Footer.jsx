@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import ImagenFooter from '../src/assets/imagenFooter.png';
 
 function Footer() {
   const [isInView, setIsInView] = useState(false);
@@ -27,14 +28,13 @@ function Footer() {
             Contenedores MG
           </motion.h2>
           <div className="w-4/5 md:w-1/2 flex pt-8 m-auto">
-            <motion.p
+            <motion.div
               initial={{ opacity: 0, y: 20 }} // Initial animation state
               animate={isInView ? { opacity: 1, y: 0 } : {}} // Animate when in view
               transition={{ duration: 1, delay: 0.5 }} // Animation duration with a delay
-              className="mt-4 text-black"
             >
-              Agregar descripcion deseada o eliminar espacio
-            </motion.p>
+              <img src={ImagenFooter} alt="MG Refrigeración" className="w-full" />
+            </motion.div>
           </div>
         </div>
       </div>
