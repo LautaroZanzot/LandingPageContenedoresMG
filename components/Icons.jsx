@@ -121,5 +121,5 @@ function Icons() {
     </>
   );
 }
-
+//Icon by <a class="link_pro" href="https://freeicons.io/shopping-and-ecommerce/shopping-and-ecommerce-fast-delivery-truck-van-icon-43618">www.wishforge.games</a>on <a href="https://freeicons.io">freeicons.io</a>
 export default Icons;
