@@ -86,7 +86,7 @@ function Icons() {
       image: Imagen1,
       title: 'Star Wash',
       description:
-        'Realizamos hidrolavadoras de agua fría/caliente, conn productos aprobados.',
+        'Realizamos hidrolavados de agua fría/caliente, con productos aprobados.',
     },
     {
       image: Imagen3,

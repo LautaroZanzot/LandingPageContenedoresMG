@@ -87,7 +87,7 @@ function Form() {
             transition={{ duration: 1 }} // Animation duration
             className="text-3xl font-bold text-white text-center"
           >
-            Si quieres conocer más sobre nuestros productos y servicios, contáctanos.
+            Si queres conocer más sobre nuestros productos y servicios, contactanos.
           </motion.p>
         </div>
         <div className="flex justify-center">

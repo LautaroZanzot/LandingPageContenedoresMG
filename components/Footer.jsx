@@ -16,28 +16,17 @@ function Footer() {
 
   return (
     <>
-      <div className=' flex justify-center items-center h-full'>
-        <div className="text-white py-36 flex flex-col text-center">
-          <motion.h2
-            ref={ref}
-            initial={{ opacity: 0, y: 20 }} // Initial animation state
-            animate={isInView ? { opacity: 1, y: 0 } : {}} // Animate when in view
-            transition={{ duration: 1 }} // Animation duration
-            className="text-5xl text-color font-bold"
-          >
-            Contenedores MG
-          </motion.h2>
-          <div className="w-4/5 md:w-1/2 flex pt-8 m-auto">
+
+          <div className="w-full flex justify-center pt-8 mx-auto">
             <motion.div
-              initial={{ opacity: 0, y: 20 }} // Initial animation state
+              //initial={{ opacity: 0, y: 20 }} // Initial animation state
               animate={isInView ? { opacity: 1, y: 0 } : {}} // Animate when in view
               transition={{ duration: 1, delay: 0.5 }} // Animation duration with a delay
             >
               <img src={ImagenFooter} alt="MG Refrigeración" className="w-full" />
             </motion.div>
           </div>
-        </div>
-      </div>
+
 
       <div className="footer-bg w-full flex justify-center items-center">
         <p className="text-xl text-gray-200">Contenedores MG 2024 | Todos los derechos reservados</p>
