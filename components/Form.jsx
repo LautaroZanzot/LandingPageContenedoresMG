@@ -55,7 +55,7 @@ function Form() {
     if (allFieldsFilled) {
       // Send email using mailto: link
       const { nombre, telefono, email, comentario } = formData;
-      const mailtoLink = `mailto:'furdimarcelo70@gmail.com,gaston_jrd@hotmail.com'?subject=Form Submission&body=Nombre y Apellido: ${nombre}%0ATeléfono: ${telefono}%0AEmail: ${email}%0AComentario: ${comentario}`;
+      const mailtoLink = `mailto:furdimarcelo70@gmail.com,gaston_jrd@hotmail.com?subject=Form Submission&body=Nombre y Apellido: ${nombre}%0ATeléfono: ${telefono}%0AEmail: ${email}%0AComentario: ${comentario}`;
       window.location.href = mailtoLink;
 
       // Show success message

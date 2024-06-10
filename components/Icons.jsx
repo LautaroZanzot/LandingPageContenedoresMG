@@ -80,19 +80,19 @@ function Icons() {
       image: Imagen5,
       title: 'Venta de Contenedores',
       description:
-        'Somos especialistas en la venta de contenedores refrigerados (Reefer) y de Carga Seca. Ofrecemos contenedores refrigerados operativos y no operativos, con garantía de funcionamiento y servicio de post venta.',
+        'Somos especialistas en la venta de contenedores refrigerados (Reefer) y de Carga Seca. Ofrecemos contenedores refrigerados operativos y no operativos con garantía de funcionamiento y servicio de post venta.',
     },
     {
       image: Imagen1,
       title: 'Star Wash',
       description:
-        'Realizamos hidrolavados de agua fría/caliente, con productos aprobados.',
+        'Realizamos hidrolavados de agua fría/caliente con productos aprobados.',
     },
     {
       image: Imagen3,
       title: 'Inspección de Contenedores',
       description:
-        'Determinacion de daños y preventivos realizados por inspectores IICL (Institute of International Container Lessors)',
+        'Determinación de daños y preventivos realizados por inspectores IICL (Institute of International Container Lessors)',
     },
     {
       image: Imagen6,

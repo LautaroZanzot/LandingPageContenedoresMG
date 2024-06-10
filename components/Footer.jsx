@@ -29,7 +29,7 @@ function Footer() {
 
 
       <div className="footer-bg w-full flex justify-center items-center">
-        <p className="text-xl text-gray-200">Contenedores MG 2024 | Todos los derechos reservados</p>
+        <p className="text-xl text-gray-200">MG Contenedores Maritimos 2024 | Todos los derechos reservados</p>
       </div>
     </>
   );
